@@ -9,4 +9,7 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile group: 'org.bytedeco', name: 'javacv', version: '0.10'
+    compile group: 'org.bytedeco.javacpp-presets', name: 'opencv', version: '2.4.9-0.10', classifier: 'windows-x86_64'
+    compile group: 'org.bytedeco.javacpp-presets', name: 'ffmpeg', version: '2.3-0.10', classifier: 'windows-x86_64'
 }
